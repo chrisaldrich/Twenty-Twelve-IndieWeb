@@ -20,8 +20,8 @@
 			?>
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'twentytwelve' ) ); ?>" class="imprint" title="<?php esc_attr_e( 'Semantic Personal Publishing Platform', 'twentytwelve' ); ?>">
 				<?php printf( __( 'Proudly powered by %s', 'twentytwelve' ), 'WordPress' ); ?>
-			</a> with <a href="http://indieweb.org" alt="IndieWeb">principles from <img src="/wp-content/themes/twentytwelve/img/indieweb-badge.png"
-                                alt="IndieWebCamp" width="80" height="15" style="image-rendering:pixelated;" /></a><br /> <a href="http://microformats.org/wiki/get-started"><img src="/wp-content/themes/twentytwelve/img/microformats-badge.png" width="80" height="15" alt="Microformats.org" style="image-rendering:pixelated;"></a> <a title="This site accepts webmentions." href="https://www.w3.org/TR/webmention/"><img src="/wp-content/themes/twentytwelve/img/webmention-badge.png" width="80" height="15" alt="Webmention" style="image-rendering:pixelated;"></a>
+			</a> with <a href="http://indieweb.org" alt="IndieWeb">principles from <img src="/wp-content/themes/twentytwelveindieweb/img/indieweb-badge.png"
+                                alt="IndieWebCamp" width="80" height="15" style="image-rendering:pixelated;" /></a><br /> <a href="http://microformats.org/wiki/get-started"><img src="/wp-content/themes/twentytwelveindieweb/img/microformats-badge.png" width="80" height="15" alt="Microformats.org" style="image-rendering:pixelated;"></a> <a title="This site accepts webmentions." href="https://www.w3.org/TR/webmention/"><img src="/wp-content/themes/twentytwelveindieweb/img/webmention-badge.png" width="80" height="15" alt="Webmention" style="image-rendering:pixelated;"></a>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

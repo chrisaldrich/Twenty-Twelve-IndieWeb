@@ -24,20 +24,20 @@
 			?>
 
 			<?php if ( is_single() ) : ?>
-			<h1 class="entry-title"><?php the_title(); ?></h1>
+			<h1 class="entry-title p-name"><?php the_title(); ?></h1>
 			<?php else : ?>
-			<h1 class="entry-title">
+			<h1 class="entry-title p-name">
 				<a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
 			</h1>
 			<?php endif; // is_single() ?>
 		</header><!-- .entry-header -->
 
 		<?php if ( is_search() ) : // Only display Excerpts for Search ?>
-		<div class="entry-summary">
+		<div class="entry-summary p-summary">
 			<?php the_excerpt(); ?>
 		</div><!-- .entry-summary -->
 		<?php else : ?>
-		<div class="entry-content">
+		<div class="entry-content e-content">
 			<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'twentytwelve' ) ); ?>
 			<?php
 			wp_link_pages(

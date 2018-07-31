@@ -39,10 +39,10 @@ get_header(); ?>
 				// Show a different message to a logged-in user who can add posts.
 			?>
 				<header class="entry-header">
-					<h1 class="entry-title"><?php _e( 'No posts to display', 'twentytwelve' ); ?></h1>
+					<h1 class="entry-title p-name"><?php _e( 'No posts to display', 'twentytwelve' ); ?></h1>
 				</header>
 
-				<div class="entry-content">
+				<div class="entry-content e-content">
 					<p><?php printf( __( 'Ready to publish your first post? <a href="%s">Get started here</a>.', 'twentytwelve' ), admin_url( 'post-new.php' ) ); ?></p>
 				</div><!-- .entry-content -->
 
@@ -51,10 +51,10 @@ get_header(); ?>
 				// Show the default message to everyone else.
 			?>
 				<header class="entry-header">
-					<h1 class="entry-title"><?php _e( 'Nothing Found', 'twentytwelve' ); ?></h1>
+					<h1 class="entry-title p-name"><?php _e( 'Nothing Found', 'twentytwelve' ); ?></h1>
 				</header>
 
-				<div class="entry-content">
+				<div class="entry-content e-content">
 					<p><?php _e( 'Apologies, but no results were found. Perhaps searching will help find a related post.', 'twentytwelve' ); ?></p>
 					<?php get_search_form(); ?>
 				</div><!-- .entry-content -->

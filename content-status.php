@@ -27,7 +27,7 @@
 			?>
 		</div><!-- .entry-header -->
 
-		<div class="entry-content">
+		<div class="entry-content p-name p-content">
 			<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'twentytwelve' ) ); ?>
 		</div><!-- .entry-content -->
 
